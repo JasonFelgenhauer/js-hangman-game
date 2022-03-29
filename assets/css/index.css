@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  height: 90vh;
+  background: #243e4d;
+  color: #fbfbfd;
+  font-family: "Roboto", sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #51e74a;
+  text-align: center;
+  font-size: 3em;
+  margin: 50px 0;
+}
+
+header h3 {
+  text-align: center;
+}
+
+header .game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0;
+}
+
+header .game canvas {
+  margin-right: 50px;
+}
+
+header .game_input {
+  text-align: center;
+}
+
+header .game_input input {
+  text-align: center;
+  background: none;
+  border: none;
+  color: #5ea7de;
+  letter-spacing: 5px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+header .buttons {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header .buttons input {
+  background: #5ea7de;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 9px;
+  color: #fbfbfd;
+  width: 6%;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header .buttons input:hover, header .buttons input:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.fixed span {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  font-size: 4em;
+  color: #5ea7de;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+{
+	"name": "hangman",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass --watch ./assets/scss/index.scss:./assets/css/index.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JasonFelgenhauer/hangman.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JasonFelgenhauer/hangman/issues"
+	},
+	"homepage": "https://github.com/JasonFelgenhauer/hangman#readme",
+	"dependencies": {
+		"node-sass": "^7.0.1"
+	}
+}

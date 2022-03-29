@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript hangman game</title>
+		<link rel="stylesheet" href="./assets/css/index.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Hangman Game</h1>
+			<h3>Try to find the hidden word by typing a letter each time of your choice.</h3>
+			<div class="game">
+				<canvas height="400" width="400"></canvas>
+				<div class="game_input">
+					<input type="text" id="word" value="______" disabled />
+					<p id="incorrect"></p>
+				</div>
+			</div>
+			<div class="buttons">
+				<input type="button" value="a" class="input_button" />
+				<input type="button" value="b" class="input_button" />
+				<input type="button" value="c" class="input_button" />
+				<input type="button" value="d" class="input_button" />
+				<input type="button" value="e" class="input_button" />
+				<input type="button" value="f" class="input_button" />
+				<input type="button" value="g" class="input_button" />
+				<input type="button" value="h" class="input_button" />
+				<input type="button" value="i" class="input_button" />
+				<input type="button" value="j" class="input_button" />
+				<input type="button" value="k" class="input_button" />
+				<input type="button" value="l" class="input_button" />
+				<input type="button" value="m" class="input_button" />
+				<input type="button" value="n" class="input_button" />
+				<input type="button" value="o" class="input_button" />
+				<input type="button" value="p" class="input_button" />
+				<input type="button" value="q" class="input_button" />
+				<input type="button" value="r" class="input_button" />
+				<input type="button" value="s" class="input_button" />
+				<input type="button" value="t" class="input_button" />
+				<input type="button" value="u" class="input_button" />
+				<input type="button" value="v" class="input_button" />
+				<input type="button" value="w" class="input_button" />
+				<input type="button" value="x" class="input_button" />
+				<input type="button" value="y" class="input_button" />
+				<input type="button" value="z" class="input_button" />
+			</div>
+		</header>
+		<div class="fixed">
+			<span id="life_count">0</span>
+		</div>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
