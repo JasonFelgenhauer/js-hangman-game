@@ -3,7 +3,7 @@
 # JavaScript hangman game
 
 I did this to improve my skills in JavaScript and with Canvas. To play, you can use the game keyboard or your computer keyboard. Each game a word is generated from a list of + - 1900 words and you have 6 chances to find the right word!
-Project : [here](http://hangman.jason-fel.be)
+Project : [here](https://hangman.jason-fel.be)
 
 ## Get the project
 
